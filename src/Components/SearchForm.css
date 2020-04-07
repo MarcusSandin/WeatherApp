@@ -1,0 +1,44 @@
+.searchForm{
+    margin-left: 41%;
+    width: 100%;
+    position: relative;
+    display: flex;
+    height:50px;
+    margin-top: 20px;
+}
+
+.container{
+    margin:auto;
+    text-align: center;
+    height: 100px;
+    width: 71%;
+    margin-left: 16%;
+    
+}
+
+.input{
+    width: 300px;
+    border-right: none;
+    padding: 5px;
+    height: 35px;
+    outline: none;
+    color: rgb(108, 139, 125);
+    border-radius: 10px 0px 0px 10px;
+    font-size: x-large;
+    text-align: center;
+  }
+
+  .searcIcon{
+    padding-left: 5px;
+    padding-right: 5px;
+    height: 36px;
+    text-align: center;
+    color: rgba(37, 35, 35, 0.24);
+    cursor: pointer;
+    font-size: 20px;   
+
+  }
+  .searchbutton{
+      border-radius: 0px 10px 10px 0px;
+      border-color: rgb(219, 235, 233);
+  }
