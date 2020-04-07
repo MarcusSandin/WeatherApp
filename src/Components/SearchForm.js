@@ -13,7 +13,12 @@ const SearchForm = () => {
 
 
     const handleInput = (val) => {
-        setInput(val);   
+        if(val ===''){
+            setInput(defaultCity);
+        }
+        else{
+            setInput(val);   
+        }
     }
 
     const searchOnClick = () => {
