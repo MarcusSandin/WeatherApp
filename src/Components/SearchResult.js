@@ -38,12 +38,9 @@ const SearchResult = (props) => {
     let day4 = [arr[24], arr[25], arr[26], arr[27], arr[28], arr[29], arr[30], arr[31]]
     let day5 = [arr[32]]
 
-    console.log(day1)
-
     const minmaxresult_day = (day) => {
       let day_max = day[0].main.temp_max
       let day_min = day[0].main.temp_min
-      console.log(day)
 
       day.forEach((position) => {
         if (position.main.temp_max > day_max) {

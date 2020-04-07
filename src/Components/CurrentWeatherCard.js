@@ -15,7 +15,6 @@ const CurrentWeatherCard = (props) => {
     }
 
     useEffect(() => {
-        console.log('current: ' + props.currentData.timezone)
         setTime(setCurrentTime());
     }, [])
 

@@ -27,7 +27,6 @@ const FetchWeatherFromAPI = (props) => {
         });
       setError("")
     } catch (error) {
-      console.log(error)
       setError(error.message)
     }
 

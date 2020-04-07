@@ -40,7 +40,6 @@ const Forecast = (props) => {
                 <h3>loading</h3>
             ) : (
                     <div className="forecastContainer">
-                        {/* <h5>{props.showforecast.dt_txt}</h5> */}
                         <h4>{dayOfTheWeek}</h4>
                         <h5>
                             <WeatherPicture icon={props.showforecast.weather[0].icon} />
